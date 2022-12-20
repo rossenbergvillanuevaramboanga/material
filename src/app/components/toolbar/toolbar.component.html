@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+      <button mat-icon-button (click)="sidenavClick()">
+        <mat-icon class="ham-icon" *ngIf="!sidenavOpened">
+            menu
+        </mat-icon>
+        <mat-icon class="ham-icon" *ngIf="sidenavOpened">
+            close
+        </mat-icon>
+      </button>
+      <div>
+          <h2>MyApp</h2>
+      </div>
+  </mat-toolbar>
